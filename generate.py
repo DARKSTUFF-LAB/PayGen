@@ -15,6 +15,8 @@ def Banner():
 (__) (__)(__)(__) \___/(____)(_)\_)
 Coded By youhacker55
 
+Don t upload Payload To VirusTotal 
+
 
 
 
