@@ -25,7 +25,7 @@ Don t Upload to Virus Total :)
 - [x] Creates a handler.rc file
 - [x] Undetectable 
 
-![](Detection.jpg)
+![](Detection.png)
 
 
 <h2>Video</h2>
