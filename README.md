@@ -1,6 +1,8 @@
 # windowsPayload
 Tool To generate Stable Undetected Payload
 
+Don t Upload to Virus Total :) 
+
 <p align="center">
   <b> Follow on Social Media Platforms </b>
 </p>
