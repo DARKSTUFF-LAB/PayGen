@@ -15,7 +15,7 @@ Simple Stable payload for windows with python
 * Auto Persistence
 * Kill Antivirus
 * Undetected(For Now Don t Upload to Virus Total)
-  ![](/Screenshot/Detection.png)
+  ![](Detection.png)
 
 
 <h2>Video</h2>
