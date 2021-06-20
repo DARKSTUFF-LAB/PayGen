@@ -17,7 +17,7 @@ Don t Upload to Virus Total :)
 
 # ScreenShots
 
-![](/Screenshot/)
+![](/Screenshot/PayGen.png)
 
 
 ## Features
