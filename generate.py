@@ -16,10 +16,6 @@ def Banner():
 Coded By youhacker55
 
 Don t upload Payload To VirusTotal 
-
-
-
-
   """)
 
 z = random.randint(40,50)
