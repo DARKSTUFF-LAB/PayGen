@@ -24,6 +24,7 @@ Don t Upload to Virus Total :)
 - [x] Create Payload With MsfVenom Automated
 - [x] Creates a handler.rc file
 - [x] Undetectable 
+- [x] AutoPortForwarding(Ngrok) 
 
 ![](Detection.png)
 
