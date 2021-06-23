@@ -24,6 +24,7 @@ Don t Upload to Virus Total :)
 - [x] Create Payload With MsfVenom Automated
 - [x] Creates a handler.rc file
 - [x] Undetectable 
+- [x] Stop Sec Services And Kill Av Process
 - [x] AutoPortForwarding(Ngrok) 
 - [x] Obfuscate Payload   
 
