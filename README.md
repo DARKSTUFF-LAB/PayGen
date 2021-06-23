@@ -3,6 +3,7 @@ Tool To generate Stable Undetected Payload
 
 Don t Upload to Virus Total :) 
 
+if you are On linux Install Py on Wine and Compile using pyinstaller (I recommend to Use Windows For Compiling)
 
 <p align="center">
   <b> Follow on Social Media Platforms </b>
@@ -29,6 +30,8 @@ Don t Upload to Virus Total :)
 - [x] Obfuscate Payload   
 
 ![](Detection.png)
+
+
 
 
 <h2>Video</h2>
