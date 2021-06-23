@@ -3,7 +3,7 @@ Tool To generate Stable Undetected Payload
 
 Don t Upload to Virus Total :) 
 
-if you are On linux Install Py on Wine and Compile using pyinstaller (I recommend to Use Windows For Compiling)
+
 
 <p align="center">
   <b> Follow on Social Media Platforms </b>
@@ -20,6 +20,11 @@ if you are On linux Install Py on Wine and Compile using pyinstaller (I recommen
 
 ![](/Screenshot/PayGen.png)
 
+# How to install + use
+* git clone https://github.com/youhacker55/PayGen/
+* cd PayGen
+* python3 generate.py
+* if you are On linux Install Py on Wine and Compile using pyinstaller (I recommend to Use Windows For Compiling)
 
 ## Features
 - [x] Create Payload With MsfVenom Automated
