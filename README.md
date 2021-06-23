@@ -25,7 +25,7 @@ Don t Upload to Virus Total :)
 - [x] Creates a handler.rc file
 - [x] Undetectable 
 - [x] AutoPortForwarding(Ngrok) 
-- [x] Simple Encryption   
+- [x] Obfuscate Payload   
 
 ![](Detection.png)
 
