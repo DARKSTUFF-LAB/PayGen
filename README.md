@@ -32,7 +32,8 @@ Don t Upload to Virus Total :)
 - [x] Undetectable 
 - [x] Stop Sec Services And Kill Av Process
 - [x] AutoPortForwarding(Ngrok) 
-- [x] Obfuscate Payload   
+- [x] Obfuscate Payload 
+- [x] Make VBS Dropper  
 
 ![](Detection.png)
 
