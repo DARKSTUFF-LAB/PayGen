@@ -33,7 +33,8 @@ Don t Upload to Virus Total :)
 - [x] Stop Sec Services And Kill Av Process
 - [x] AutoPortForwarding(Ngrok) 
 - [x] Obfuscate Payload 
-- [x] Make VBS Dropper  
+- [x] Can Make VBS Dropper  
+- [x] Can Make HTA Attack
 
 ![](Detection.png)
 
@@ -41,4 +42,4 @@ Don t Upload to Virus Total :)
 
 
 <h2>Video</h2>
-<a href="https://www.youtube.com/watch?v=GN0BW_jQ03k"><img src="https://www.upload.ee/image/13243510/Screenshot_from_2021-06-17_14-59-40.png" style="max-width:100%;"></a>
+<a href="https://www.youtube.com/watch?v=GN0BW_jQ03k"><img src="https://www.upload.ee/image/13243510/Screenshot_from_2021-06-17_14-59-40.png" style="max-width:100%;"></a> 
