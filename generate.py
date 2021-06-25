@@ -244,7 +244,9 @@ elif choose == 5:
     interface = input("choose which interface you will use for the apache2 server:")
     if  interface in interfaces_list:
         try:
+            
             ip = nat.ifaddresses(interface)[nat.AF_INET][0]['addr']
+            startapche()
             HTAattack(ip)
         except KeyError:
             print("this Interface Not Connected to A Network")
@@ -255,6 +257,7 @@ elif choose == 5:
         print("Hope you know what are you Doing")
         time.sleep(2)
         try:
+            startapche()
             ip = nat.ifaddresses(interface)[nat.AF_INET][0]['addr']
             HTAattack(ip)
         except ValueError:
