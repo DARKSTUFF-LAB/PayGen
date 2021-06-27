@@ -38,7 +38,8 @@ Don t Upload to Virus Total :)
 - [x] Auto Exe signing
 ![](Detection.png)
 
-
+# C# Payload Detection
+![](C#Payloads.png)
 
 
 <h2>Video</h2>
