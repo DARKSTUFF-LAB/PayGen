@@ -35,7 +35,7 @@ Don t Upload to Virus Total :)
 - [x] Obfuscate Payload 
 - [x] Can Make VBS Dropper  
 - [x] Can Make HTA Attack
-
+- [x] Auto Exe signing
 ![](Detection.png)
 
 
