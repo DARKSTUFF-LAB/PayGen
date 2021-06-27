@@ -157,7 +157,7 @@ print(Red+"""
 3)Help Me With Persistence
 4)Simple VBS Dropper
 5)Simple HTA attack
-6)C# Dropper
+6)C# Payload
 """)
 choose = int(input("root@Gen:"))
 
