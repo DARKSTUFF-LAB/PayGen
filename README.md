@@ -39,7 +39,8 @@ Don t Upload to Virus Total :)
 ![](Detection.png)
 
 # C# Payload Detection
-![](C#Payloads.png)
+
+* ![](C#Payloads.png)
 
 
 <h2>Video</h2>
