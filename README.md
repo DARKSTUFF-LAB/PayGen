@@ -18,7 +18,7 @@ Don t Upload to Virus Total :)
 
 # ScreenShots
 
-![](/Screenshot/paygen.png)
+
 
 # How to install + use
 * git clone https://github.com/youhacker55/PayGen/
