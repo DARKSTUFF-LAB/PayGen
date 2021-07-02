@@ -18,6 +18,8 @@ Don t Upload to Virus Total :)
 
 # ScreenShots
 
+![](/Screenshot/paygen.png)
+
 
 
 # How to install + use
