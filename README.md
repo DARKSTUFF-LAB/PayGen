@@ -39,8 +39,8 @@ Don t Upload to Virus Total :)
 - [x] Can Make HTA Attack
 - [x] Auto Exe signing
 - [x] Generate Android Payloads 
-- [x] shellcode injection
-
+- [x] shellcode injection with  python
+- [x] shellcode injection with powershell 
 ![](Detection.png)
 
 # C# Payload Detection
