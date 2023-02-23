@@ -252,7 +252,7 @@ def Banner():
 (  _ \ /__\ ( \/ )/ __)( ___)( \( )
  )___//(__)\ \  /( (_-. )__)  )  ( 
 (__) (__)(__)(__) \___/(____)(_)\_)
-Coded By youhacker55
+Coded By TheNewAttacker64
 
 Don t upload Payload To VirusTotal 
   """)
