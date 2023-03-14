@@ -18,12 +18,12 @@ Don t Upload to Virus Total :)
 
 # ScreenShots
 
-![](/Screenshot/paygen.png)
+![](/Screenshot/pyGen.jpg)
 
 
 
 # How to install + use
-* git clone https://github.com/youhacker55/PayGen/
+* git clone https://github.com/YAHYA950/PayGen/
 * cd PayGen
 * python3 generate.py
 * if you are On linux Install Py on Wine and Compile using pyinstaller (I recommend to Use Windows For Compiling)
